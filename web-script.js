@@ -22,27 +22,11 @@ javascript: (function () {
         e.click();
       }
     });
-    /*     $a(".im_message_text").forEach((e) => (e.style.fontSize = "30px"));
-    $a(".im_content_message_wrap").forEach((e) => (e.style.fontSize = "30px"));
-    $a(".im_message_author").forEach((e) => {
-      e.style.fontSize = "30px";
-      e.style.lineHeight = "32px";
-    }); 
-    $a(".im_message_from_photo").forEach((e) => {
-      e.style.width = "100px";
-      e.style.height = "100px";
-    });
-    $a(".im_message_body").forEach((e) => {
-      e.style.padding = "16px 32px";
-      e.style.borderRadius = "24px";
-      e.style.marginLeft = "70px";
-    });
     $a(".emoji").forEach((e) => {
       e.style.transform = "scale(2)";
       e.style.marginLeft = "16px";
       e.style.lineHeight = "24px";
     });
-    */
   }, 1000);
   setInterval(() => {
     $(".im_history_scrollable_wrap").scrollTo({
